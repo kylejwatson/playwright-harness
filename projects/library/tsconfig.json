@@ -25,9 +25,6 @@
         "importHelpers": true,
         "strictPropertyInitialization": true,
         "noUnusedLocals": true,
-        "types": [
-            "node"
-        ]
     },
     "compileOnSave": false,
     "include": [

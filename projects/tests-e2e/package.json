@@ -3,15 +3,9 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "start": "wdio run wdio.config.ts --watch=false --debug=true --headless=true"
+        "start": "npx playwright test"
     },
     "devDependencies": {
-        "@wdio/cli": "^8.39.0",
-        "@wdio/jasmine-framework": "^8.39.0",
-        "@wdio/local-runner": "^8.39.0",
-        "@wdio/spec-reporter": "^8.39.0",
-        "chromedriver": "^126.0.4",
-        "ts-node": "^10.9.2",
-        "typescript": "^5.5.2"
+        "@playwright/test": "^1.45.1"
     }
 }
